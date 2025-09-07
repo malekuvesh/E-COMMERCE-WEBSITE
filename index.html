@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE WEBSITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styling/style.css">
+</head>
+
+<body>
+    <div class="continer">
+
+        <!-- Header -->
+        <header>
+            <p>35% Off For <span>Buy One Watch</span></p>
+            <nav class="navbar">
+                <div class="nicname">
+                    <a href="#"><img src="accests/Cream Black Minimalist Watches Logo.png" alt="Logo"> ASRAFI WATCH</a>
+                </div>
+                <ul class="About">
+                    <li class="hides"><a href="#home">Home</a></li>
+                    <li class="hides"><a href="#about">About</a></li>
+                    <li class="hides"><a href="#contact">Contact Us</a></li>
+                    <li class="hides"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                    <li class="hides">
+                        <input id="ser" type="search" name="search" placeholder="Search...">
+                        <button class="serch"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </li>
+                    <li class="bar"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                </ul>
+            </nav>
+
+            <!-- Categories -->
+            <ul class="diff">
+                <li><a href="/componets/men.html">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Children</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">House</a></li>
+            </ul>
+        </header>
+
+        <!-- Hero Section -->
+        <main id="home">
+            <div class="check">
+                <p>
+                    A smartwatch is the ultimate combination of technology and convenience, redefining how we
+                    interact with our gadgets and daily life. Designed for modern lifestyles, smartwatches seamlessly
+                    integrate functionality with style, offering a perfect balance of utility and sophistication.
+                </p>
+            </div>
+            <video src="accests/Grey Smart Watch Promo Mobile Video.mp4" autoplay muted loop></video>
+        </main>
+
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-container">
+                <h2>About Us</h2>
+                <p>
+                    At <strong>Asrafi Watch</strong>, we believe a smartwatch is more than just a gadget —
+                    it’s your lifestyle partner. Our goal is to bring you premium watches that combine
+                    technology, style, and comfort.
+                </p>
+                <p>
+                    From <b>Apple</b> and <b>Samsung</b> to <b>Fitbit</b> and <b>Noise</b>, we provide
+                    only trusted brands, ensuring quality, durability, and performance. Whether it’s
+                    fitness, productivity, or fashion — we’ve got the right watch for you.
+                </p>
+
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h3>Trusted Quality</h3>
+                        <p>100% genuine watches with warranty for your peace of mind.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <h3>Fast Delivery</h3>
+                        <p>Quick & hassle-free delivery across major cities.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-headset"></i>
+                        <h3>24/7 Support</h3>
+                        <p>Friendly customer support team available anytime.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Products -->
+        <section class="products">
+            <h1>Premium Smart Watches</h1>
+            <div class="imgs">
+                <div class="card">
+                    <img class="prod-img" src="https://www.topbestproreview.com/wp-content/uploads/2018/01/9-8.jpg"
+                        alt="Smartwatch 1">
+                    <p class="price">Apple Smartwatch</p>
+                    <p class="price">$200.00</p>
+                </div>
+
+                <div class="card">
+                    <img class="prod-img"
+                        src="https://images-na.ssl-images-amazon.com/images/I/911oxtdetHL._AC_UL1500_.jpg"
+                        alt="Smartwatch 2">
+                    <p class="price">Samsung Smartwatch</p>
+                    <p class="price">$180.00</p>
+                </div>
+
+                <div class="card">
+                    <img class="prod-img" src="https://m.media-amazon.com/images/I/81hMBJ4xoCL._AC_UL960_QL65_.jpg"
+                        alt="Smartwatch 3">
+                    <p class="price">Fitbit Smartwatch</p>
+                    <p class="price">$150.00</p>
+                </div>
+
+                <div class="card">
+                    <img class="prod-img" src="https://m.media-amazon.com/images/I/71JfGjxM5lL._AC_UL960_QL65_.jpg"
+                        alt="Smartwatch 4">
+                    <p class="price">Noise Smartwatch</p>
+                    <p class="price">$120.00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="fieled">
+            <h2>Contact Us</h2>
+            <form action="database.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+
+                <label for="feedback">Feedback:</label>
+                <textarea class="feedback" name="feedback" rows="4" required></textarea>
+
+                <div class="center-btn">
+                    <input type="submit" value="Submit" name="subs" id="done">
+                </div>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" class="footer">
+            <ul class="links">
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Warranty</a></li>
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <div class="online-platform">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+
+            <div class="Copyright">
+                <p>&copy; 2024 Asrafi Watch. All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
